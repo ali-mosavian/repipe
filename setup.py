@@ -11,14 +11,14 @@ setup(
     python_requires='>=3.6',
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     install_requires=[
-        'gensim == 3.8.1',
-        'joblib == 0.14.0',
+        'gensim >= 3.8.1',
+        'joblib >= 0.14.0',
         'Keras-Preprocessing == 1.1.0',
-        'nltk == 3.4.5',
-        'numpy == 1.17.3',
-        'pandas == 0.25.2',
-        'scikit-learn == 0.21.3',
-        'scipy == 1.3.1',
+        'nltk >= 3.6.4',
+        'numpy >= 1.17.3',
+        'pandas >= 0.25.2',
+        'scikit-learn >= 0.21.3',
+        'scipy >= 1.3.1',
     ],
     extras_require={
         'test': [
