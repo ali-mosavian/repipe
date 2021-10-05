@@ -12,8 +12,7 @@ setup(
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     install_requires=[
         'gensim >= 3.8.1',
-        'joblib >= 0.14.0',
-        'Keras-Preprocessing == 1.1.0',
+        'joblib >= 0.14.0',        
         'nltk >= 3.6.4',
         'numpy >= 1.17.3',
         'pandas >= 0.25.2',
@@ -25,5 +24,8 @@ setup(
             'pyyaml==5.1.2',
             'nose==1.3.7'
         ],
+        'keras': [
+            'Keras-Preprocessing >= 1.1.0'
+        ],        
     }
 )
