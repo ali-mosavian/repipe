@@ -13,7 +13,7 @@ setup(
     install_requires=[
         'gensim >= 3.8.1',
         'joblib >= 0.14.0',        
-        'nltk >= 3.6.4',
+        'nltk >= 3.4.4',
         'numpy >= 1.17.3',
         'pandas >= 0.25.2',
         'scikit-learn >= 0.21.3',
